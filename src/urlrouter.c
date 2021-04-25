@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 
-#include "matcher.h"
+#include "urlrouter.h"
 
 /* A path represents one Character or a wildcard in a path, a path can look something like this: "/users/nils" or "/users/{username}"
  * The first path would represent the first 'u' from "users/nils" and keep the path from 's' as a child.
